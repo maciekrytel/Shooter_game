@@ -1,0 +1,44 @@
+# Plik parametryczny gry.
+# Komentarz zaczyna siê od znaku # i obowi¹zuje do koñca linii.
+# Parametry s¹ zapisane w postaci par {nazwa}={wartoœæ}.
+# Plik nalezy wczytaæ do obiektu java.util.Properties metod¹ load() tej klasy
+# wg wzoru w programie generatora plików parametrycznych.
+#
+nazwaGry=Strzelanie do obiektów [pin: 8108, autorzy: Maciej Rytel, Marcin Skinder]
+# Nazwa gry powinna wyœwietlac siê gdzieœ na planszy albo w tytule okna.
+#
+# 1. Poziomy gry i pliki opisuj¹ce poziom gry. Zawartoœc pliku opisuj¹cego poziom
+#    trzeba opracowaæ i przygotowaæ samodzielnie wg metody stosowanej w tym pliku.
+#
+liczbaPoziomów=5
+# dodatnia liczba ca³kowita
+nazwaBazowaPlikuZOpisemPoziomu=poziom#
+numeracjaPoziomówZaczynaSiêOd=0
+# liczba 0 lub 1
+rozszerzeniePlikuZOpisemPoziomu=prop
+#
+# 2. Stopnie trudnoœci
+#
+liczbaStopniTrudnoœci=4
+# dodatnia liczba ca³kowita
+zmianaStopniaTrudnoœci=39
+# liczba ca³kowita w zakresie 20..45 - o tyle procent zwiêkszaj¹ siê i/lub zmniejszaj¹
+# siê parametry wp³ywaj¹ce na stopieñ trudnoœci np. prêdkoœæ, czas, liczba punktów do zdobycia itp.
+#
+# 3. Ró¿ne wymiary
+#
+pocz¹tkowaSzerokoœæPlanszy=878
+pocz¹tkowaWysokoœæPlanszy=411
+pocz¹tkowaSzerokoœæObiektuGryJakoProcentPocz¹tkowejSzerokoœciPlanszy=7.4708486
+#
+# 4. Rysowanie t³a i obiektów, do których siê strzela
+#
+t³o=jednolite
+klorT³a=86 170 31
+# sk³adowe R G B koloru t³a, ka¿da w zakresie 0..255
+obiektyGry=figuryGeometryczne
+figuraObiektuGry=kwadraty
+# jedno z: kwadraty prostok¹ty trójk¹ty kó³ka
+#
+# Jeœli uwa¿asz, ¿e warto dodaæ jeszcze jakieœ parametry dodaj je w dodatkowym
+# pliku konfiguracyjnym, obs³ugiwanym niezale¿nie od tego pliku parametrycznego.

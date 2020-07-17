@@ -1,0 +1,5 @@
+#wpisz pin gry twojego zespołu ze strony http://ztv.ire.pw.edu.pl/proze/projekty/zespo%C5%82y.html
+pin=8108
+
+#wpisz nazwiska autorów projektu
+autorzy=Maciej Rytel, Marcin Skinder
